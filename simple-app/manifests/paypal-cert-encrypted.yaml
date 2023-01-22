@@ -1,0 +1,16 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: paypal-cert
+  namespace: default
+spec:
+  encryptedData:
+    paypal.crt: AgAj9m9IB2zdwl9JrV4vHZRxfFu+wJvPJlugix084lWYuU6a+kBpE9juIdofyY9pED35dXwwyK8tEnGj4gtt2aXhhv65yWiD0UWxHNWTm06Sg0eiaPbLJTCw4hkL84bdBQSy64asomf4UYiWlWTFI6TUqhcujXO8xhv56DrwO/EQ5pJOMF7Z+bmoxRz1hFlqjlt5AFe3UCB0gXrHpmYkGmJeGLdMLnAuIcMblEwK6KVCllS/v+6HWhRSyrMeo3wtBwG9+Tnv9wNc24jJmEz/+FFsMu+EiOrOJ3NpH0FOTu1yiPaqIZ7DpUDmMtUSlxXXdstPz1Qt3xXc…USeiunrbWZTvKiKzCjF7RNPCX+CBgVqb3SQUUddp1+7j9FvgWWCO1ynXYAhd3Neq58YAYNkcJYTYdHtffVV6eoBw44Hno7BMUuPdJbWZieVa1bXlRoE9+nSRip0mR0RewC1DJ8XU70dylTWiiowA7qtyc7g+GiOXGpl9NczUi5BfkcFG/pxQDvRifRvS5gQ27CzxwfMlzqqjgnNfqvNaWF1dj+5aLqnahktKxWcdMtYR8QexSfWMUxOVbqkguVQAPEbFhiMv9P/lQ6mmbbPo0FgpxUAXSBbuOXeo3rc8O5C0cvVlhQcZAQkQVMkYcY7+FANIYumAHdOWYP6iVnm0syEL+zMYsKiHHx8+FnvBSIW
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: paypal-cert
+      namespace: default
+    type: Opaque
